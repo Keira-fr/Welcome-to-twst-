@@ -1,1 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dormatories</title>
+  <style>
+    body {
+      min-height: 100vh;
+      margin: 0;
+      background-image: url('dormbackground.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
 
+    h1 {
+      color: white;
+      text-align: center;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+
+    .image-link {
+      position: relative;
+      overflow: hidden;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s;
+    }
+
+    .image-link:hover {
+      transform: scale(1.05);
+    }
+
+    .image-link img {
+      width: 250px;
+      height: 250px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .image-link a {
+      text-decoration: none;
+      display: block;
+    }
+
+    /* Back button */
+    .back-btn {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      background-color: rgba(0, 0, 0, 0.6);
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .back-btn:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+  </style>
+</head>
+<body>
+
+  <a href="index.html" class="back-btn">← Back to Home</a>
+
+  <h1>Make Your Choice</h1>
+
+  <div class="container">
+    <!-- Clickable Image - Heartslabyul -->
+    <div class="image-link">
+      <a href="Heartslabyul.html">
+        <img src="Heartslabyul.png" alt="Heartslabyul">
+      </a>
+    </div>
+
+    <!-- Clickable Image - Savanaclaw -->
+    <div class="image-link">
+      <a href="Savanaclaw.html">
+        <img src="Savanaclaw.png" alt="Savanaclaw">
+      </a>
+    </div>
+
+    <!-- Clickable Image - Octavinelle -->
+    <div class="image-link">
+      <a href="Octavinelle.html">
+        <img src="Octavinelle.png" alt="Octavinelle">
+      </a>
+    </div>
+
+     <!-- Clickable Image - Scarabia -->
+    <div class="image-link">
+      <a href="Scarabia.html">
+        <img src="Scarabia.png" alt="Scarabia">
+      </a>
+    </div>
+    
+    <!-- Clickable Image - Pomefiore -->
+    <div class="image-link">
+      <a href="Pomefiore.html">
+        <img src="Pomefiore.png" alt="Pomefiore">
+      </a>
+    </div>
+
+     <!-- Clickable Image - Ignihyde -->
+    <div class="image-link">
+      <a href="Ignihyde.html">
+        <img src="Ignihyde.png" alt="Ignihyde">
+      </a>
+    </div>
+
+     <!-- Clickable Image - Diasomnia -->
+    <div class="image-link">
+      <a href="Diasomnia.html">
+        <img src="Diasomnia.png" alt="Diasomnia">
+      </a>
+    </div>
+  </div>
+
+</body>
+</html>
