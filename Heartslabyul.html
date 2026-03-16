@@ -1,0 +1,421 @@
+Copilot said: Here's a complete template for individual dorm
+Here's a complete template for individual dorm pages:
+
+HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Heartslabyul❤️🌹</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('indexbackgroung.jpg');
+      background-size: cover;
+      background-attachment: fixed;
+      color: #333;
+    }
+
+    /* Back button */
+    .back-btn {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      background-color: rgba(0, 0, 0, 0.7);
+      color: white;
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+      z-index: 100;
+    }
+
+    .back-btn:hover {
+      background-color: rgba(0, 0, 0, 0.9);
+    }
+
+    /* Header */
+    .header {
+      background-color: rgba(0, 0, 0, 0.7);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+      margin-top: 70px;
+    }
+
+    .header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    /* About Section */
+    .about-section {
+      background-color: rgba(255, 255, 255, 0.95);
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    }
+
+    .about-section h2 {
+      color: #2c3e50;
+      margin-bottom: 15px;
+      border-bottom: 3px solid #3498db;
+      padding-bottom: 10px;
+    }
+
+    .about-section p {
+      line-height: 1.6;
+      color: #555;
+      margin-bottom: 10px;
+    }
+
+    /* All Characters Image */
+    .all-characters-section {
+      background-color: rgba(255, 255, 255, 0.95);
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+      text-align: center;
+    }
+
+    .all-characters-section h2 {
+      color: #2c3e50;
+      margin-bottom: 15px;
+      border-bottom: 3px solid #3498db;
+      padding-bottom: 10px;
+    }
+
+    .all-characters-section img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    /* Characters Section */
+    .characters-section {
+      background-color: rgba(255, 255, 255, 0.95);
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    }
+
+    .characters-section h2 {
+      color: #2c3e50;
+      margin-bottom: 20px;
+      border-bottom: 3px solid #3498db;
+      padding-bottom: 10px;
+    }
+
+    /* Character Cards with Image and Table */
+    .character-card {
+      display: flex;
+      gap: 30px;
+      margin-bottom: 40px;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+
+    .character-image {
+      flex: 0 0 250px;
+    }
+
+    .character-image img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .character-info {
+      flex: 1;
+      min-width: 300px;
+    }
+
+    /* Table Styling */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: #f8f9fa;
+    }
+
+    table th {
+      background-color: #3498db;
+      color: white;
+      padding: 12px;
+      text-align: left;
+      font-weight: bold;
+    }
+
+    table td {
+      padding: 12px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    table tr:hover {
+      background-color: #ecf0f1;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .character-card {
+        flex-direction: column;
+      }
+
+      .character-image {
+        flex: 0 0 100%;
+      }
+
+      .header h1 {
+        font-size: 2em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <a href="dorms.html" class="back-btn">← Back to Dorms</a>
+
+  <!-- Header -->
+  <div class="header">
+    <h1>Heartslabyul</h1>
+    <p>Meest the Residents of Heartslaybul</p>
+  </div>
+
+  <!-- About Section -->
+  <div class="about-section">
+    <h2>About Heartslabyul</h2>
+    <p>
+      Welcome to Heartslabyul! A dorm based on the Queen of Hearts' spirit of strictness.
+      Twisted from Alice in Wonderland.
+    </p>
+    <p>
+      It is Heartslabyul tradition to follow the rules of the Queen of Hearts, 
+      although how strictly they are required to adhere to the rules will depend on the dorm leader. 
+      There are 810 of them in total.
+    </p>
+  </div>
+
+  <!-- All Characters Image -->
+  <div class="all-characters-section">
+    <h2>A Queen & her soldiers👑🃏</h2>
+    <img src="Heartstudents.jpg" alt="The Heartslabyul Residents">
+  </div>
+
+  <!-- Individual Characters with Tables -->
+  <div class="characters-section">
+    <h2>Meet Your Dormates</h2>
+
+    <!-- Riddle -->
+    <div class="character-card">
+      <div class="character-image">
+        <img src="Riddle.jpg" alt="Riddle Rosehearts">
+      </div>
+      <div class="character-info">
+        <table>
+          <tr>
+            <td><strong>Name</strong></td>
+            <td>Riddle Rosehearts</td>
+          </tr>
+           <tr>
+            <td><strong>Birthday</strong></td>
+            <td>August 24</td>
+          </tr>
+          <tr>
+            <td><strong>Occupation</strong></td>
+            <td>Housewarden; Dormitory-Leader</td>
+          </tr>
+          <tr>
+            <td><strong>Year</strong></td>
+            <td>2nd</td>
+          </tr>
+          <tr>
+            <td><strong>Personality</strong></td>
+            <td>Hot-Tempered, Stubborn, Hard Working, Animal Lover</td>
+          </tr>
+          <tr>
+            <td><strong>Club</strong></td>
+            <td>Equestrian Club</td>
+          </tr>
+          <tr>
+            <td><strong>Best Subject</strong></td>
+            <td>Practical Magic</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <!-- Trey -->
+    <div class="character-card">
+      <div class="character-image">
+        <img src="Trey.jpg" alt="Trey Clover">
+      </div>
+      <div class="character-info">
+        <table>
+          <tr>
+            <td><strong>Name</strong></td>
+            <td>Trey Clover</td>
+          </tr>
+           <tr>
+            <td><strong>Birthday</strong></td>
+            <td>October 25</td>
+          </tr>
+          <tr>
+            <td><strong>Occupation</strong></td>
+            <td>Vice Housewarden</td>
+          </tr>
+          <tr>
+            <td><strong>Year</strong></td>
+            <td>3rd</td>
+          </tr>
+          <tr>
+            <td><strong>Personality</strong></td>
+            <td>Calm, rational, laid-back, caring</td>
+          </tr>
+          <tr>
+            <td><strong>Club</strong></td>
+            <td>Science Club</td>
+          </tr>
+          <tr>
+            <td><strong>Best Subject</strong></td>
+            <td>Alchemy</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <!-- cater -->
+    <div class="character-card">
+      <div class="character-image">
+        <img src="Riddle.jpg" alt="Riddle Rosehearts">
+      </div>
+      <div class="character-info">
+        <table>
+          <tr>
+            <td><strong>Name</strong></td>
+            <td>Cater Diamond</td>
+          </tr>
+           <tr>
+            <td><strong>Birthday</strong></td>
+            <td>February 4</td>
+          </tr>
+          <tr>
+            <td><strong>Occupation</strong></td>
+            <td>Student</td>
+          </tr>
+          <tr>
+            <td><strong>Year</strong></td>
+            <td>3rd</td>
+          </tr>
+          <tr>
+            <td><strong>Personality</strong></td>
+            <td>Easy-going, peppy</td>
+          </tr>
+          <tr>
+            <td><strong>Club</strong></td>
+            <td>Light Music</td>
+          </tr>
+          <tr>
+            <td><strong>Best Subject</strong></td>
+            <td>Astrology</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    
+     <!-- Ace -->
+    <div class="character-card">
+      <div class="character-image">
+        <img src="Ace.jpg" alt="Ace Trappola">
+      </div>
+      <div class="character-info">
+        <table>
+          <tr>
+            <td><strong>Name</strong></td>
+            <td>Ace Trappola</td>
+          </tr>
+           <tr>
+            <td><strong>Birthday</strong></td>
+            <td>September 23</td>
+          </tr>
+          <tr>
+            <td><strong>Occupation</strong></td>
+            <td>Student</td>
+          </tr>
+          <tr>
+            <td><strong>Year</strong></td>
+            <td>1st</td>
+          </tr>
+          <tr>
+            <td><strong>Personality</strong></td>
+            <td>Cheerful, mischevious, outspoken</td>
+          </tr>
+          <tr>
+            <td><strong>Club</strong></td>
+            <td>Basketball Club</td>
+          </tr>
+          <tr>
+            <td><strong>Best Subject</strong></td>
+            <td>Magical Analysis</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <!-- deuce -->
+    <div class="character-card">
+      <div class="character-image">
+        <img src="Deuce.jpg" alt="Deuce Spade">
+      </div>
+      <div class="character-info">
+        <table>
+          <tr>
+            <td><strong>Name</strong></td>
+            <td>Deuce Spade</td>
+          </tr>
+           <tr>
+            <td><strong>Birthday</strong></td>
+            <td>June 3</td>
+          </tr>
+          <tr>
+            <td><strong>Occupation</strong></td>
+            <td>Student</td>
+          </tr>
+          <tr>
+            <td><strong>Year</strong></td>
+            <td>1st</td>
+          </tr>
+          <tr>
+            <td><strong>Personality</strong></td>
+            <td>Straightforward, compassionate</td>
+          </tr>
+          <tr>
+            <td><strong>Club</strong></td>
+            <td>Track and Field</td>
+          </tr>
+          <tr>
+            <td><strong>Best Subject</strong></td>
+            <td>PE</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+
+  </div>
+
+</body>
+</html>
